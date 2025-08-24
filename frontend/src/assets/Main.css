@@ -1,0 +1,134 @@
+.main-content {
+    color: var(--text-light);
+    background-color: var(--bg-dark);
+}
+
+#btn-projects {
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    width: 250px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+#btn-contact {
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    padding: 9px 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+
+
+#btn-projects:hover {
+    background-color: #fc5a39;
+    color: white;
+}
+
+#btn-contact:hover {
+    border-color: white;
+    color: white;
+}
+
+
+
+.main-content h1 {
+    color: var(--text-light);
+    font-size: 1em;
+}
+
+.point-title-about {
+    color: var(--primary-color);
+    font-size: 1em;
+}
+
+.skills {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #16232c;
+}
+
+.skills p {
+    color: var(--text-light);
+    font-size: 1em;
+    transition: color 0.3s ease;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.skills p:hover {
+    color: var(--primary-color);
+}
+
+.skills p::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: width 0.3s ease;
+}
+
+.skills p:hover::after {}
+
+.Container-Cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 20px;
+}
+
+
+
+.about-text div {
+    margin-bottom: 50px;
+}
+
+.container-about-text{
+    padding-bottom: 100px;
+    
+   
+}
+
+.about-text-footer {
+    padding-top: 50px;
+    text-align: left;             /* Alinha o texto à esquerda */
+    margin-left: auto;            /* Centraliza o elemento horizontalmente */
+    margin-right: auto;          
+    max-width: 700px;             /* Controla a largura do parágrafo */
+    font-size: 1.2rem;
+}
+
+
+.about-text div h1 {}
+
+.about-text div p {}

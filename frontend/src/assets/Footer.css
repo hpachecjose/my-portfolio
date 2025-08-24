@@ -1,0 +1,8 @@
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+    background-color: var(--bg-dark ); 
+    font-size: 1rem;
+}
